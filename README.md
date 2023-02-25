@@ -1,7 +1,7 @@
 ## DESPLIEGUE DEL COMPONENTE BACKEND
 ![image](https://user-images.githubusercontent.com/105765407/221376101-21110703-cb96-4667-9ba4-4f35c767fc16.png)
 
-## Paso a seguidar para el correcto despligue.
+## Pasos a seguir para el correcto despliegue.
 
 El componente backend ha realizo el despligue en Heroku una plataforma para el envio a produccion de lso diferentes componentes, No obstante para el despliegue se debe seguir los paso que se muestra a continuacion.
 
@@ -13,7 +13,7 @@ El componente backend ha realizo el despligue en Heroku una plataforma para el e
 
 ![image](https://user-images.githubusercontent.com/105765407/221376412-fca1198e-f8ab-4924-9fe4-0c3e0e82e687.png)
 
-- Seguidamente al Ingresa no dirigimos hacia el apartado de crear una nueva aplicación.
+- Seguidamente al ingresar nos dirigimos hacia el apartado de crear una nueva aplicación
 
 ![image](https://user-images.githubusercontent.com/105765407/221376444-448e69ba-2d1e-4209-bb3e-7835cfc5d74a.png)
 
@@ -33,12 +33,26 @@ El componente backend ha realizo el despligue en Heroku una plataforma para el e
 
 ![image](https://user-images.githubusercontent.com/105765407/221376653-2babe6c0-7c82-4004-92d7-1ca2d3da9e51.png)
 
+- Una vez ingresado las variables de entorno, nos dirigimos hacia despliegue para ingresar los comandos que nos indica en consola.
+
+![image](https://user-images.githubusercontent.com/105765407/221376789-1931b1db-270d-4ebb-a38e-03baecdceafe.png)
+
+- Finlamente verificamos la funcionalidad ingresado a nuestra sistema web desplegado.
+
+![image](https://user-images.githubusercontent.com/105765407/221376836-a69d2cda-c011-4962-8792-511225b3056c.png)
 
 
+## Documentación de la API en Swagger
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+Para la documentacion realizada en Swagger se debe seguir los suguientes pasos que se muestra a continuación.
 
-## Learning Laravel
+1- Primero se debe instalar las siguientes dependecias necesarias para la documentacion.
+ - composer require "darkaonline/l5-swagger"
+ - $ php artisan vendor:publish --provider "L5Swagger\L5SwaggerServiceProvider"
+ - Comando para guardar la documentación $ php artisan l5-swagger:generate
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+2- Una vez instalado todo, debemos verificar la logica que lleva para documentar la herramienta Swagger como se muestra en la Figura.
+
+![image](https://user-images.githubusercontent.com/105765407/221377126-2255b791-47a0-47b0-991a-247becb5576b.png)
+
 
