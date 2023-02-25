@@ -55,4 +55,16 @@ Para la documentacion realizada en Swagger se debe seguir los suguientes pasos q
 
 ![image](https://user-images.githubusercontent.com/105765407/221377126-2255b791-47a0-47b0-991a-247becb5576b.png)
 
+3- Seguidamente el controlador principal que Laravel nos da debemos colocar la siguiente  documentación.
+
+![image](https://user-images.githubusercontent.com/105765407/221377609-1bfc7a43-90df-4883-a638-31445997380d.png)
+
+3- Una vez que este documentado todas las funciones necesarias verificamos nuestra documentacion en swagger mediante la ruta desplegada o local mas /api/documentation como se indica en la Figura.
+
+![image](https://user-images.githubusercontent.com/105765407/221377666-31c9f59d-27b2-4129-91e6-38ca403de6d5.png)
+
+4- Finalmente verificamos su funcionalidad que este todo correcto.
+
+![image](https://user-images.githubusercontent.com/105765407/221377710-fa765f92-723d-4fef-9ec7-ae8298cdf40a.png)
+
 
