@@ -1,23 +1,40 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+## DESPLIEGUE DEL COMPONENTE BACKEND
+![image](https://user-images.githubusercontent.com/105765407/221376101-21110703-cb96-4667-9ba4-4f35c767fc16.png)
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+## Paso a seguidar para el correcto despligue.
 
-## About Laravel
+El componente backend ha realizo el despligue en Heroku una plataforma para el envio a produccion de lso diferentes componentes, No obstante para el despliegue se debe seguir los paso que se muestra a continuacion.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+- Crear una cuenta en Heroku gratis o paga, en la siguiente ruta https://signup.heroku.com/.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+![image](https://user-images.githubusercontent.com/105765407/221376354-d348cc51-5fbc-4bdd-8efe-5942d7b6ab7b.png)
+
+- Una vez creada la cuenta vamos a dirigirnos a ingresar nuestras credenciales para el inicio de sesión como se muestra en la Figura.
+
+![image](https://user-images.githubusercontent.com/105765407/221376412-fca1198e-f8ab-4924-9fe4-0c3e0e82e687.png)
+
+- Seguidamente al Ingresa no dirigimos hacia el apartado de crear una nueva aplicación.
+
+![image](https://user-images.githubusercontent.com/105765407/221376444-448e69ba-2d1e-4209-bb3e-7835cfc5d74a.png)
+
+- Luego procedemos a crear la aplicacion ingresando el nombre.
+
+![image](https://user-images.githubusercontent.com/105765407/221376477-098b3106-7bc3-49ec-bb85-8c2954f4fb13.png)
+
+- Al momento de tener nuestra aplicacion creada nos dirigimos hacia el apartado de configuracion para colocar las variables de entorno.
+
+![image](https://user-images.githubusercontent.com/105765407/221376515-20484aad-cbe2-4e6b-9512-2fb62dfb0bff.png)
+
+- Nos dirigimos hacia nuestro codigo fuente para verificar las variables de entorno necesarias para colocar en Heroku.
+
+![image](https://user-images.githubusercontent.com/105765407/221376573-02f20f1f-9c0e-46a6-94b7-2a6871661b77.png)
+
+- Al verificar las variables de entorno, agregamos dichas variables en Heroku para su respectivo despliegue como se muestra en la Figura.
+
+![image](https://user-images.githubusercontent.com/105765407/221376653-2babe6c0-7c82-4004-92d7-1ca2d3da9e51.png)
+
+
+
 
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
@@ -25,42 +42,3 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
 
 Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
-
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
